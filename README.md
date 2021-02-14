@@ -34,6 +34,6 @@ Data consist of Driver Images, each taken in A Car with A Driver doing something
 - Reaching Behind (Reaching for some Object on the Back Seat) 
 
 ### Files :
-- **imgs.zip** - Zipped Folder of All (Train/Test) Images.
-- **sample_submission.csv** - Sample Submission File in the Correct Format.
-- **driver_imgs_list.csv** - List of Training Images, their subject (Driver) ID, and Class ID.
+1. **imgs.zip** - Zipped Folder of All (Train/Test) Images.
+2. **sample_submission.csv** - Sample Submission File in the Correct Format.
+3. **driver_imgs_list.csv** - List of Training Images, their subject (Driver) ID, and Class ID.
