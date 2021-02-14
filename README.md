@@ -26,7 +26,12 @@ We need to **Classify** Images into following 10 Classes
 
 ### 3. Features
 
-Data consist of Driver Images, each taken in A Car with A Driver doing something in the Car (Texting, Eating, Talking on the Phone, Makeup, Reaching Behind (Reaching for some Object on the Back Seat) etc). 
+Data consist of Driver Images, each taken in A Car with A Driver doing something in the Car 
+- Texting 
+- Eating 
+- Talking on the Phone
+- Makeup
+- Reaching Behind (Reaching for some Object on the Back Seat) 
 
 ### Files :
 - **imgs.zip** - Zipped Folder of All (Train/Test) Images.
