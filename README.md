@@ -20,7 +20,7 @@ We need to **Classify** Images into following 10 Classes
 
 ### 2. Data
 
-[Kaggle's State Farm Distracted Driver Detection](https://www.kaggle.com/c/state-farm-distracted-driver-detection/data)
+**[Kaggle's State Farm Distracted Driver Detection](https://www.kaggle.com/c/state-farm-distracted-driver-detection/data)**
 
 ### 3. Features
 
