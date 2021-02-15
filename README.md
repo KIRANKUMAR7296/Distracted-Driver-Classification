@@ -1,11 +1,9 @@
 # Distracted Driver Multi Action Classification 🚗🚙🚐🚌
-End to End Multi Class Multi Label Prediction for Stack Overflow Questions.
+End to End **Multi Class Multi Label Prediction** for **Stack Overflow Questions**.
 
 ### 1. Problem
 
-Predict the Likelihood :
-
-What the Driver is doing in Each Ricture?
+Predict the **Likelihood** : What the **Driver** is doing in Each Ricture?
 
 We need to **Classify** Images into following 10 Classes 
 
