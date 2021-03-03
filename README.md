@@ -1,5 +1,4 @@
 # Distracted Driver Multi Action Classification 🚗🚙🚐🚌
-End to End **Multi Class Multi Label Prediction** for **Stack Overflow Questions**.
 
 ### 1. Problem
 
