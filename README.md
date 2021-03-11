@@ -45,6 +45,10 @@ Data consist of Driver Images, each taken in A Car with A Driver doing something
 
 **tensorflow.keras.layers** : ( `Conv2D` : 2D Convolution Layer )
 
+**tensorflow.keras.layers** : ( `Flatten` : **Flattens** the Input. )
+
+**tensorflow.keras.layers** : ( `Activation` : Applies an **Activation Function** to an output. )
+
 **tensorflow.keras.layers** : ( `BatchNormalization` : Applies a **Transformation** | `Mean` = 0 and `Standard Deviation` close to 1 of the Output. )
 
 **tensorflow.keras.utils.to_categorical** : Converts a **Class Vector** (integers) to **Binary Class** `Matrix`.
