@@ -40,11 +40,13 @@ Data consist of Driver Images, each taken in A Car with A Driver doing something
 2. Pandas
 3. Matplotlib
 4. Sklearn
-5. Keras ( Util )
+5. Keras ( Utils )
 6. Tensorflow
 
-**tf.keras.utils.to_categorical**
+**tensorflow.keras.layers** : ( `Conv2D` : 2D Convolution Layer )
 
-- Converts a **Class Vector** (integers) to **Binary Class** `Matrix`.
+**tensorflow.keras.layers** : ( `BatchNormalization` : Applies a **Transformation** | `Mean` = 0 and `Standard Deviation` close to 1 of the Output. )
+
+**tensorflow.keras.utils.to_categorical** : Converts a **Class Vector** (integers) to **Binary Class** `Matrix`.
 
 
