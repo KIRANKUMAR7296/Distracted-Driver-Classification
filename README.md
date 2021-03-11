@@ -43,7 +43,7 @@ Data consist of Driver Images, each taken in A Car with A Driver doing something
 5. Keras ( Util )
 6. Tensorflow
 
-tf.keras.utils.`to_categorical`
+**tf.keras.utils.to_categorical**
 
 - Converts a **Class Vector** (integers) to **Binary Class** `Matrix`.
 
