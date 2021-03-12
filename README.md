@@ -1,4 +1,4 @@
-# Distracted Driver Multi Action Classification 🚗🚙🚌
+# Distracted Driver Classification 🚗🚙🚌
 
 ### 1. Problem
 
