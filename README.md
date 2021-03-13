@@ -2,7 +2,7 @@
 
 ### 1. Problem
 
-Predict the **Likelihood** : What the **Driver** is doing in Each Ricture?
+Predict the **Likelihood** : What the **Driver** is doing in Each Picture?
 
 We need to **Classify** Images into following 10 Classes 
 
