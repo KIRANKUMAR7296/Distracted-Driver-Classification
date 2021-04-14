@@ -43,14 +43,33 @@ Data consist of Driver Images, each taken in A Car with A Driver doing something
 5. Keras ( Utils )
 6. Tensorflow
 
-**tensorflow.keras.layers** : ( `Conv2D` : 2D Convolution Layer )
+### 6. Approach
+- Reduced Image Size to 240 x 240
+- Total Number of Images : 2242
+- **tensorflow.keras.utils.to_categorical** : Converts a **Class Vector** ( **Integers** ) to **Binary Class** `Matrix`. ( Dummy Encoding )
 
-**tensorflow.keras.layers** : ( `Flatten` : **Flattens** the Input. )
+### 7. Parameters of Layers ( **tensorflow.keras.layers**  )
 
-**tensorflow.keras.layers** : ( `Activation` : Applies an **Activation Function** to an output. )
+1. **Conv2D** : 2D Convolution Layer    
+- Filters : Number of Filters in Convolution.
+- kernel_size : Size of Window. 
+- Strides : How Far will Pooling Window Move | Steps.
+- Padding : valid ( no padding ) or same ( Add Same Padding from all sides )
+- Activation Function : Activation Function to Use ( ReLu )   
+- input_shape : 
 
-**tensorflow.keras.layers** : ( `BatchNormalization` : Applies a **Transformation** | `Mean` = 0 and `Standard Deviation` close to 1 )
+2. **Flatten**
+- **Flattens** the Input ( Down Sampling :  e.g ( output = ( 1, 10, 64 ) flattens to output = ( 640 ) i.e 1 x 10 x 64 = 640 )
 
-**tensorflow.keras.utils.to_categorical** : Converts a **Class Vector** (integers) to **Binary Class** `Matrix`.
+3. **MaxPooling2D**
+- Pool Size : Window Size ( Even if only one Integer is Passed it will be considered for both e.g. If 2 is Passes it is ( 2, 2 ) )
+- Strides : How Far will Pooling Window Move | Steps.
+- Padding : valid ( no padding ) or same ( Add Same Padding from all sides )
 
+3. **BatchNormalization**
+- Applies a **Transformation** | `Mean` = 0 and `Standard Deviation` close to 1 
+- Axis : Axis to be Normalized 
+- Epsilon : Variance Added to Prevent from Divide by 0 Error.
 
+4. **Activation** 
+- Activation : Name of Activation Function to be Applied ( e.g. activation = "relu" ) 
