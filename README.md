@@ -71,3 +71,9 @@ Data consist of Driver Images, each taken in A Car with A Driver doing something
 
 ### 4. **Activation** 
 - **activation** : Name of Activation Function to be Applied ( e.g. activation = "relu" ) 
+
+Measured Performance of my Model using **loss** : categorical_crossentropy ( Probability Value between 0 and 1 ) and accuracy.
+
+Set Callback for Early Stoping to Prevent from Overfitting, monitor by val_accuracy and patience = 5 ( Loss <= 5 )
+
+Provided **batch_size** ( Training Data Set Size ) and **epochs** ( Number of Epochs : One Cycle of Full Training )
