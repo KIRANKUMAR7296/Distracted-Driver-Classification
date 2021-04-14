@@ -50,24 +50,24 @@ Data consist of Driver Images, each taken in A Car with A Driver doing something
 
 ### 7. Parameters of Layers ( **tensorflow.keras.layers**  )
 
-1. **Conv2D** : 2D Convolution Layer    
+### 1. **Conv2D** : 2D Convolution Layer    
 - **filters** : Number of Filters in Convolution.
 - **kernel_size** : Size of Window. 
 - **strides** : How Far will Pooling Window Move | Steps.
 - **padding** : valid ( no padding ) or same ( Add Same Padding from all sides )
 - **input_shape** : Size of Batch or Window.
 
-2. **Flatten**
+### 2. **Flatten**
 - **flattens** the Input ( Down Sampling :  e.g ( output = ( 1, 10, 64 ) flattens to output = ( 640 ) i.e 1 x 10 x 64 = 640 )
 
-3. **MaxPooling2D**
+### 3. **MaxPooling2D**
 - **pool_size** : Window Size ( Even if only one Integer is Passed it will be considered for both e.g. If 2 is Passes it is ( 2, 2 ) )
 - **strides** : How Far will Pooling Window Move | Steps.
 - **padding** : valid ( no padding ) or same ( Add Same Padding from all sides )
 
-3. **BatchNormalization** ( **Transformation** : `Mean` = 0 and `Standard Deviation` close to 1  )
+### 3. **BatchNormalization** ( **Transformation** : `Mean` = 0 and `Standard Deviation` close to 1  )
 - **axis** : Axis to be Normalized 
 - **epsilon** : Variance Added to Prevent from Divide by 0 Error.
 
-4. **Activation** 
+### 4. **Activation** 
 - **activation** : Name of Activation Function to be Applied ( e.g. activation = "relu" ) 
