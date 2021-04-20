@@ -73,7 +73,7 @@ We need to **Classify** Images into following 10 Classes
 - Takes **Weighted Sum** of all the Inputs from **Previous Layer** and Generates Output for **Last Layer**.
 
 ### 5. BatchNormalization ( Transformation : `Mean` = 0 and `Standard Deviation` close to 1  )
-- Stabilized the **Learning** ( Reduces the Number of Training **Epochs** and **Time** required to Train the Neural Network )
+- Stabilize the **Learning** ( Reduces the Number of Training **Epochs** and **Time** required to Train the Neural Network )
 - Network becomes **Unbiased**.
 - Makes Optimization Fast by Restricting Weights to Certain **Range**.
 - Computes **Means** and **Variance** of the Feature in **Mini Batch**.
