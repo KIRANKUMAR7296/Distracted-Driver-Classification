@@ -58,15 +58,15 @@ We need to **Classify** Images into following 10 Classes
 - **padding** : valid ( no padding ) or same ( Add Same Padding from all sides )
 - **input_shape** : Size of Batch or Window.
 
-### 2. **Flatten**
+### 2. Flatten
 - **flattens** the Input ( Down Sampling :  e.g ( output = ( 1, 10, 64 ) flattens to output = ( 640 ) i.e 1 x 10 x 64 = 640 )
 
-### 3. **MaxPooling2D**
+### 3. MaxPooling2D
 - **pool_size** : Window Size ( Even if only one Integer is Passed it will be considered for both e.g. If 2 is Passes it is ( 2, 2 ) )
 - **strides** : How Far will Pooling Window Move | Steps.
 - **padding** : valid ( no padding ) or same ( Add Same Padding from all sides )
 
-### 3. **BatchNormalization** ( **Transformation** : `Mean` = 0 and `Standard Deviation` close to 1  )
+### 3. BatchNormalization ( Transformation : `Mean` = 0 and `Standard Deviation` close to 1  )
 - Stabilized the **Learning** ( Reduces the Number of Training **Epochs** and **Time** required to Train the Neural Network )
 - Network becomes **Unbiased**.
 - Makes Optimization Fast by Restricting Weights to Certain **Range**.
@@ -75,15 +75,14 @@ We need to **Classify** Images into following 10 Classes
 - **axis** : Axis to be Normalized. 
 - **epsilon** : Variance Added to Prevent from Divide by 0 Error.
 
-### 4. **Activation** 
+### 4. Activation
 - **activation** : Name of Activation Function to be Applied ( e.g. activation = "relu" ) 
 
-### Performance Measure 
+### 5. Performance Measure 
 - **loss** : categorical_crossentropy ( Probability Value between 0 and 1 ) and accuracy.
-
 - Set Callback for Early Stoping to Prevent from Overfitting, monitor by val_accuracy and patience = 5 ( Loss <= 5 )
 
-- **batch_size** ( Training Data Set Size ) and **epochs** ( Number of Epochs : One Cycle of Full Training )
+> **batch_size** ( Training Data Set Size ) and **epochs** ( Number of Epochs : One Cycle of Full Training )
 
 <table align=center>
   <tr><td><img src="Output.png"></td></tr>
