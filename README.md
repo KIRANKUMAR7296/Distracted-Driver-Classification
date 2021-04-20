@@ -52,12 +52,13 @@ We need to **Classify** Images into following 10 Classes
 
 ### 7. Parameters of Layers ( **tensorflow.keras.layers**  )
 
-### 1. **Conv2D** : 2D Convolution Layer    
+### 1. **Conv2D** : 2D Convolution Layer 
 - **filters** : Number of Filters in Convolution.
 - **kernel_size** : Size of Window. 
 - **strides** : How Far will Pooling Window Move | Steps.
 - **padding** : valid ( no padding ) or same ( Add Same Padding from all sides )
 - **input_shape** : Size of Batch or Window.
+- **activation** : Name of Activation Function to be Applied ( e.g. activation = "relu" ) 
 
 ### 2. Flatten
 - **flattens** the Input ( Down Sampling :  e.g ( output = ( 1, 10, 64 ) flattens to output = ( 640 ) i.e 1 x 10 x 64 = 640 )
@@ -76,10 +77,7 @@ We need to **Classify** Images into following 10 Classes
 - **axis** : Axis to be Normalized. 
 - **epsilon** : Variance Added to Prevent from Divide by 0 Error.
 
-### 4. Activation
-- **activation** : Name of Activation Function to be Applied ( e.g. activation = "relu" ) 
-
-### 5. Performance Measure 
+### 4. Performance Measure 
 - **loss** : categorical_crossentropy ( Probability Value between 0 and 1 ) and accuracy.
 - Set Callback for Early Stoping to Prevent from Overfitting, monitor by val_accuracy and patience = 5 ( Loss <= 5 )
 
