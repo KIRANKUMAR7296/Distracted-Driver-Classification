@@ -66,7 +66,7 @@ We need to **Classify** Images into following 10 Classes
 - **padding** : valid ( no padding ) or same ( Add Same Padding from all sides )
 
 ### 3. Flatten
-- **flattens** the Input ( Down Sampling :  e.g ( output = ( 1, 10, 64 ) flattens to output = ( 640 ) i.e 1 x 10 x 64 = 640 )
+- **flattens** the Input ( Down Sampling :  e.g ( output = ( 1, 10, 64 ) to output = ( 640 ) i.e 1 x 10 x 64 = 640 )
 
 ### 4. Fully Connected Layer ( Feed Forward Connected Layer )
 - **Flattened** Input is fed into the Fully Connected Layer.
