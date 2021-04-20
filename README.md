@@ -52,7 +52,7 @@ We need to **Classify** Images into following 10 Classes
 
 ### 7. Parameters of Layers ( **tensorflow.keras.layers**  )
 
-### 1. **Conv2D** : 2D Convolution Layer 
+### A. **Conv2D** : 2D Convolution Layer 
 - **filters** : Number of Filters in Convolution.
 - **kernel_size** : Size of Window. 
 - **strides** : How Far will Pooling Window Move | Steps.
@@ -60,26 +60,26 @@ We need to **Classify** Images into following 10 Classes
 - **input_shape** : Size of Batch or Window.
 - **activation** : Name of Activation Function to be Applied ( e.g. activation = "relu" ) 
 
-### 2. MaxPooling2D
+### B. MaxPooling2D
 - **pool_size** : Window Size ( Even if only one Integer is Passed it will be considered for both e.g. If 2 is Passes it is ( 2, 2 ) )
 - **strides** : How Far will Pooling Window Move | Steps.
 - **padding** : valid ( no padding ) or same ( Add Same Padding from all sides )
 
-### 3. Flatten
-- **flattens** the Input ( Down Sampling :  e.g ( **Input** = ( 1, 10, 64 ) to **Output** = ( 640 ) i.e 1 x 10 x 64 = 640 )
+### C. Flatten
+- Pooling **flattens** the Input ( Down Sampling :  e.g ( **Input** = ( 1, 10, 64 ) to **Output** = ( 640 ) i.e 1 x 10 x 64 = 640 )
 
-### 4. Fully Connected Layer ( Feed Forward Connected Layer )
+### D. Fully Connected Layer ( Feed Forward Connected Layer )
 - **Flattened** Input is fed into the Fully Connected Layer.
 - Takes **Weighted Sum** of all the Inputs from **Previous Layer** and Generates Output for **Last Layer**.
 
-### 5. BatchNormalization ( Transformation : `Mean` = 0 and `Standard Deviation` close to 1  )
+### E. BatchNormalization ( Transformation : `Mean` = 0 and `Standard Deviation` close to 1  )
 - Stabilize the **Learning** ( Reduces the Number of Training **Epochs** and **Time** required to Train the Neural Network )
 - Network becomes **Unbiased** and makes Optimization Fast by Restricting Weights to Certain **Range**.
 - Computes **Means** and **Variance** of the Feature in **Mini Batch**, then Subtracts **Mean** and Divides by its Mini Batch **Standard Deviation**.
 - **axis** : Axis to be Normalized. 
 - **epsilon** : Variance Added to Prevent from Divide by 0 Error.
 
-### 6. Performance Measure 
+### 8. Performance Measure 
 - **loss** : categorical_crossentropy ( Probability Value between 0 and 1 ) and accuracy.
 - Set Callback for Early Stoping to Prevent from Overfitting, monitor by val_accuracy and patience = 5 ( Loss <= 5 )
 
