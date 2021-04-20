@@ -76,8 +76,7 @@ We need to **Classify** Images into following 10 Classes
 - Stabilize the **Learning** ( Reduces the Number of Training **Epochs** and **Time** required to Train the Neural Network )
 - Network becomes **Unbiased**.
 - Makes Optimization Fast by Restricting Weights to Certain **Range**.
-- Computes **Means** and **Variance** of the Feature in **Mini Batch**.
-- Subtracts **Mean** and Divides the Feature by its Mini Batch **Standard Deviation**.
+- Computes **Means** and **Variance** of the Feature in **Mini Batch**, then Subtracts **Mean** and Divides the Feature by its Mini Batch **Standard Deviation**.
 - **axis** : Axis to be Normalized. 
 - **epsilon** : Variance Added to Prevent from Divide by 0 Error.
 
