@@ -66,7 +66,7 @@ Data consist of Driver Images, each taken in A Car with A Driver doing something
 - **padding** : valid ( no padding ) or same ( Add Same Padding from all sides )
 
 ### 3. **BatchNormalization** ( **Transformation** : `Mean` = 0 and `Standard Deviation` close to 1  )
-- Stabilized the **Learning** ( Reduces the Number of **Training** Epochs required to Train the Neural Network )
+- Stabilized the **Learning** ( Reduces the Number of Training **Epochs** and **Time** required to Train the Neural Network )
 - **axis** : Axis to be Normalized. 
 - **epsilon** : Variance Added to Prevent from Divide by 0 Error.
 
