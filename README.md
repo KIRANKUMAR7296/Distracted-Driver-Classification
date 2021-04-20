@@ -32,9 +32,9 @@ We need to **Classify** Images into following 10 Classes
 - Reaching Behind for some Object on the Back Seat.
 
 ### 4. Files 
-1. **imgs.zip** - Zipped Folder of All (Train/Test) Images.
+1. **images.zip** - All ( Train and Test ) Images.
 2. **sample_submission.csv** - Sample Submission File in the Correct Format.
-3. **driver_imgs_list.csv** - List of Training Images, their subject (Driver) ID, and Class ID.
+3. **driver_images_list.csv** - List of Training Images with Driver ID and Class ID.
 
 ### 5. Libraries
 1. NumPy
@@ -42,7 +42,7 @@ We need to **Classify** Images into following 10 Classes
 3. Matplotlib
 4. Sklearn
 5. Keras ( Utils )
-6. Tensorflow
+6. Tensorflow ( Open Source Library to Develop and Train ML Models )
 
 ### 6. Approach
 - Reduced Image Size to 240 x 240
