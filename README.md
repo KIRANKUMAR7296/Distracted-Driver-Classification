@@ -67,6 +67,10 @@ Data consist of Driver Images, each taken in A Car with A Driver doing something
 
 ### 3. **BatchNormalization** ( **Transformation** : `Mean` = 0 and `Standard Deviation` close to 1  )
 - Stabilized the **Learning** ( Reduces the Number of Training **Epochs** and **Time** required to Train the Neural Network )
+- Network becomes **Unbiased**.
+- Makes Optimization Fast by Restricting Weights to Certain **Range**.
+- Computes **Means** and **Variance** of the Feature in **Mini Batch**.
+- Subtracts **Mean** and Divides the Feature by its Mini Batch **Standard Deviation**.
 - **axis** : Axis to be Normalized. 
 - **epsilon** : Variance Added to Prevent from Divide by 0 Error.
 
