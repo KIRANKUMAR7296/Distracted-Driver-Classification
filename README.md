@@ -88,3 +88,5 @@ We need to **Classify** Images into following 10 Classes
 <table align=center>
   <tr><td><img src="Output.png"></td></tr>
 </table>
+
+Accuracy : 97.51%
