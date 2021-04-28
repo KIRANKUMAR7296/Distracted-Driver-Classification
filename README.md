@@ -80,7 +80,7 @@ We need to **Classify** Images into following 10 Classes
 - `epsilon` : `Variance` Added to Prevent from Divide by `0` Error.
 
 ### 8. Performance Measure 
-- `loss` : categorical_crossentropy ( Probability Value between `0` and `1` ) and accuracy.
+- `loss` : `categorical_crossentropy` ( Probability Value between `0` and `1` ) and accuracy.
 - Set Callback for Early Stoping to Prevent from Overfitting, monitor by `val_accuracy` and `patience` = 5 ( Loss <= 5 )
 - `batch_size` : Training Data Set Size. 
 - `epochs` ( Number of Epochs ) : One Cycle of Full Training.
