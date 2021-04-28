@@ -76,14 +76,14 @@ We need to **Classify** Images into following 10 Classes
 - Stabilize the **Learning** ( Reduces the Number of Training **Epochs** and **Time** required to Train the Neural Network )
 - Network becomes **Unbiased** and makes Optimization Fast by Restricting Weights to Certain **Range**.
 - Computes **Means** and **Variance** of the Feature in **Mini Batch**, then Subtracts **Mean** and Divides by its Mini Batch **Standard Deviation**.
-- **axis** : Axis to be Normalized. 
-- **epsilon** : Variance Added to Prevent from Divide by 0 Error.
+- `axis` : `Axis` to be Normalized. 
+- `epsilon` : `Variance` Added to Prevent from Divide by `0` Error.
 
 ### 8. Performance Measure 
-- **loss** : categorical_crossentropy ( Probability Value between 0 and 1 ) and accuracy.
-- Set Callback for Early Stoping to Prevent from Overfitting, monitor by val_accuracy and patience = 5 ( Loss <= 5 )
-- **batch_size** : Training Data Set Size. 
-- **epochs** ( Number of Epochs ) : One Cycle of Full Training.
+- `loss` : categorical_crossentropy ( Probability Value between `0` and `1` ) and accuracy.
+- Set Callback for Early Stoping to Prevent from Overfitting, monitor by `val_accuracy` and `patience` = 5 ( Loss <= 5 )
+- `batch_size` : Training Data Set Size. 
+- `epochs` ( Number of Epochs ) : One Cycle of Full Training.
 
 <table align=center>
   <tr><td><img src="Output.png"></td></tr>
