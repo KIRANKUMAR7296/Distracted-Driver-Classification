@@ -61,7 +61,7 @@ We need to **Classify** Images into following 10 Classes
 - **activation** : Name of Activation Function to be Applied ( e.g. activation = "relu" ) 
 
 ### B. MaxPooling2D
-- **pool_size** : Window Size ( Even if only one Integer is Passed it will be considered for both e.g. If 2 is Passes it is ( 2, 2 ) )
+- **pool_size** : Window Size ( Even if only one Integer is Passed it will be considered for both e.g. If 2 is Passed it is ( 2, 2 ) )
 - **strides** : How Far will Pooling Window Move | Steps.
 - **padding** : valid ( no padding ) or same ( Add Same Padding from all sides )
 
