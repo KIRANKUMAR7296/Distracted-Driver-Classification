@@ -48,7 +48,7 @@ We need to **Classify** Images into following 10 Classes
 - `Orignal` Image Dimensions - 480 x 640 x 3
 - `Reduced` Image Dimensions - 240 x 240 x 3
 - `Total` Number of Images : 2242
-- **tensorflow.keras.utils.to_categorical** : Converts a **Class Vector** ( **Integers** ) to **Binary Class** `Matrix` ( Dummy Encoding )
+- tensorflow.keras.utils.`to_categorical` : Converts a **Class Vector** ( **Integers** ) to **Binary Class** `Matrix` ( Dummy Encoding )
 
 ### 7. Parameters of Layers ( **tensorflow.keras.layers**  )
 
