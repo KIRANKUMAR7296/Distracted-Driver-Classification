@@ -53,17 +53,17 @@ We need to **Classify** Images into following 10 Classes
 ### 7. Parameters of Layers ( **tensorflow.keras.layers**  )
 
 ### A. **Conv2D** : 2D Convolution Layer 
-- **filters** : Number of Filters in Convolution.
-- **kernel_size** : Size of Window. 
-- **strides** : How Far will Pooling Window Move | Steps.
-- **padding** : valid ( no padding ) or same ( Add Same Padding from all sides )
-- **input_shape** : Size of Batch or Window.
-- **activation** : Name of Activation Function to be Applied ( e.g. activation = "relu" ) 
+- `filters` : Number of Filters in Convolution.
+- `kernel_size` : Size of Window. 
+- `strides` : How Far will Pooling Window Move | Steps.
+- `padding` : valid ( no padding ) or same ( Add Same Padding from all sides )
+- `input_shape` : Size of Batch or Window.
+- `activation` : Name of Activation Function to be Applied ( e.g. activation = "relu" ) 
 
 ### B. MaxPooling2D
-- **pool_size** : Window Size ( Even if only one Integer is Passed it will be considered for both e.g. If 2 is Passed it is ( 2, 2 ) )
-- **strides** : How Far will Pooling Window Move | Steps.
-- **padding** : valid ( no padding ) or same ( Add Same Padding from all sides )
+- `pool_size` : Window Size ( Even if only one Integer is Passed it will be considered for both e.g. If 2 is Passed it is ( 2, 2 ) )
+- `strides` : How Far will Pooling Window Move | Steps.
+- `padding` : valid ( no padding ) or same ( Add Same Padding from all sides )
 
 ### C. Flatten
 - Pooling **flattens** the Input ( Down Sampling :  e.g ( **Input** = ( 1, 10, 64 ) to **Output** = ( 640 ) i.e 1 x 10 x 64 = 640 )
